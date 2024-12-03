@@ -1,6 +1,6 @@
 # Форматы биоинф файлов
 
-- [fasta](https://en.wikipedia.org/wiki/FASTA_format), fa - заголовок + нуклеотиды - 2 строки
+- [fasta](https://en.wikipedia.org/wiki/FASTA_format), fa - 2 строки: заголовок начинающийся с `<` + нуклеотиды, может быть несколько пар строк в одном файле
 - [fastq](https://en.wikipedia.org/wiki/FASTQ_format) - fasta с качеством - 4 строки
 - [gff](https://en.wikipedia.org/wiki/General_feature_format) - general feature format - описания генов, мета-информация к геному (fasta) - 9 столбцов
 - [BED](https://en.wikipedia.org/wiki/BED_(file_format))
